@@ -1,15 +1,32 @@
-## **Please provide the following information for your token.**
-
-Please include change to the `tokenlist.json` file in the PR.
-DON'T modify any other token on the list.
-
-At minimum each entry should have
-
-- Token Address:
-- Token Name:
-- Token Symbol:
-- Token Decimal:
-- Logo URI: 
-- Link to the official homepage of token:
-- MarketCap Link if available (https://coinmarketcap.com/currencies/#TOKEN or https://www.coingecko.com/en/coins/#TOKEN):
-- Existing Markets (where to trade): 
+{
+      "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
+      "symbol": "WIN",
+      "name": "WINkLink",
+      "decimals": 6,
+      "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg",
+      "homepage": "https://winklink.org/",
+      "MarketCapLink": "https://coinmarketcap.com/currencies/wink/",
+      "existingMarkets": [
+          {
+              "source": "Binance",
+              "pairs": [
+                  "WIN/USDT",
+                  "WIN/BUSD",
+                  "WIN/BNB",
+                  "WIN/USDC"
+              ]
+          },
+          {
+              "source": "Poloniex",
+              "pairs": [
+                  "WIN/USDT"
+              ]
+          },
+          {
+              "source": "KuCoin",
+              "pairs": [
+                  "WIN/USDT"
+              ]
+          }
+    ]
+}
